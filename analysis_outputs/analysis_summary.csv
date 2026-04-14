@@ -1,0 +1,7 @@
+hourly_rows_after_cleaning,7760
+daily_rows_after_merge,361
+date_min,2024-10-01
+date_max,2026-02-03
+avg_ole_mean,0.6889
+failure_rate_mean,0.0182
+downtime_per_hour_mean,8.2805
