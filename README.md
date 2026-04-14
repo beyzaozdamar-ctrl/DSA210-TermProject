@@ -179,32 +179,4 @@ Results:
 
 This indicates that some of the raw weather effects are mixed with operational structure, especially staffing and seasonal patterns.
 
-## Conclusion
 
-The results do not provide strong evidence that rain directly lowers production performance. However, the analysis does show that production efficiency and failure behavior vary significantly across seasons, and that some weather-related indicators are associated with daily efficiency in the raw comparisons.
-
-Since the factory is climate controlled, the safest interpretation is that weather is not acting as a direct physical factor. Instead, it may be linked to production through indirect behavioral channels or through broader seasonal operational differences.
-
-Overall, the project concludes that:
-
-**Weather-related context appears to be associated with production performance, but the effect is modest and partly confounded by operational factors.**
-
-## Project Files
-
-- `eda_hypothesis_analysis.py`: analysis script
-- `EDA_Hypothesis_Testing.md`: detailed written interpretation
-- `analysis_outputs/daily_merged_dataset.csv`: final merged daily dataset
-- `analysis_outputs/hypothesis_test_results.csv`: hypothesis test results
-- `analysis_outputs/correlation_results.csv`: correlation output
-- `analysis_outputs/regression_results.csv`: regression output
-- `analysis_outputs/*.png`: generated visualizations
-
-## How to Run
-
-Run the analysis script with:
-
-```bash
-python3 eda_hypothesis_analysis.py
-```
-
-This will regenerate the cleaned dataset, test results, regression outputs, and plots inside the `analysis_outputs` folder.
